@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Zipline: Pomodoro Timer</title>
+    
+    
+    
+    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <h1 class="text-center">Pomodoro <span class="alt-text">Timer</span></h1>
+
+<div class="container">
+  <div class="text-center inline" id="work-group">
+    <button class="btn btn-success btn-lg" id="work-minus">-</button>
+    <div class="time-setter">
+      <h1>Work</h1>
+      <h1 id="work-time">25</h1>
+    </div><!-- .time-setter -->
+    <button class="btn btn-success btn-lg" id="work-plus">+</button>
+  </div><!-- #work-group -->
+
+  <div class="text-center" id="timer-group">
+    <div class="text-center timer" id="timer">
+      <h1 id="type"></h1>
+      <h1 id="time"></h1>
+    </div><!-- #timer -->
+    <button class="btn btn-success btn-start btn-lg" id="start-work"><i class="fa fa-play"></i></button>
+    <button class="btn btn-default btn-start btn-lg" id="stop-timer"><i class="fa fa-stop"></i></button>
+    <button class="btn btn-danger btn-start btn-lg" id="start-break"><i class="fa fa-play"></i></button>
+    <p class="text-center"><a href="http://help.pomotodo.com/collection/5453747ccbe7778760d39190/article/555c8afb1fe726eb7edd0c84" target="_blank">Why no pause button?</a></p>
+  </div><!-- #timer-group -->
+
+  <div class="text-center inline" id="break-group">
+    <button class="btn btn-danger btn-lg" id="break-minus">-</button>
+    <div class="time-setter" id="break-setter">
+      <h1>Break</h1>
+      <h1 id="break-time">5</h1>
+    </div><!-- #break-setter -->
+    <button class="btn btn-danger btn-lg" id="break-plus">+</button>
+  </div><!-- #break-group -->
+</div><!-- .container -->
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
